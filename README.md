@@ -1,1 +1,3 @@
-# -Test
+public class Test {
+public static void Test 
+{ 

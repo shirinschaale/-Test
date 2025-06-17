@@ -1,11 +1,11 @@
-    public class Test {
-        public static void Test(String[] args) {
-        int ergebnis = quadratzahl(8);
-        system.out.println("ergebnis: " + ergebnis);
-        } 
-
-        public static int quadratzahl(int zahl){
-        zahl= zahl +1; 
-        return zahl * zahl;
-        }
+public class main {
+    public static int quadratzahl(int n) {
+      return (n + 1) * (n + 1); 
     }
+    
+    public static void main(String[] args) {
+      int zahl = 8;
+      int ergebnis = quadratzahl(zahl);
+      System.out.println(ergebnis);
+    }
+}

@@ -9,5 +9,8 @@ int zahl1;
 zahl1 = 6;
 int zahl2;
 zahl2 = 1;
-int summe = addiere(zahl1, zahl2); 
-{ 
+int summe = addiere(zahl1, zahl2);
+
+system.out.println(summe);
+
+}
